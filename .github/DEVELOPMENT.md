@@ -3,8 +3,8 @@
 After [forking the repo from GitHub](https://help.github.com/articles/fork-a-repo) and [installing pnpm](https://pnpm.io/installation):
 
 ```shell
-git clone https://github.com/(your-name-here)/cta-example-minimal
-cd cta-example-minimal
+git clone https://github.com/(your-name-here)/created-typescript-app-minimal
+cd created-typescript-app-minimal
 pnpm install
 ```
 
