@@ -1,7 +1,7 @@
 <h1 align="center">created-typescript-app-minimal</h1>
 
 <p align="center">
-	An example of create-typescript-app's Minimal preset.
+	An example of <a href="https://github.com/JoshuaKGoldberg/create-typescript-app">create-typescript-app</a>'s Minimal preset.
 	✔️
 </p>
 
