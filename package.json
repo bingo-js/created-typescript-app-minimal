@@ -30,20 +30,20 @@
 		"*": "prettier --ignore-unknown --write"
 	},
 	"dependencies": {
-		"@atproto/api": "^0.13.28"
+		"@atproto/api": "^0.15.6"
 	},
 	"devDependencies": {
-		"@eslint/js": "9.21.0",
-		"@types/node": "22.13.9",
-		"eslint": "9.21.0",
+		"@eslint/js": "9.26.0",
+		"@types/node": "22.15.18",
+		"eslint": "9.26.0",
 		"husky": "9.1.7",
-		"lint-staged": "15.4.3",
+		"lint-staged": "16.0.0",
 		"prettier": "^3.5.3",
 		"tsup": "8.4.0",
-		"typescript": "5.8.2",
-		"typescript-eslint": "8.26.0"
+		"typescript": "5.8.3",
+		"typescript-eslint": "8.32.1"
 	},
-	"packageManager": "pnpm@10.4.0",
+	"packageManager": "pnpm@10.11.0",
 	"engines": {
 		"node": ">=18.3.0"
 	}
