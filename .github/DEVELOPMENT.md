@@ -10,13 +10,13 @@ pnpm install
 
 ## Building
 
-Run [**tsup**](https://tsup.egoist.dev) locally to build source files from `src/` into output files in `lib/`:
+Run [**tsdown**](https://tsdown.dev) locally to build source files from `src/` into output files in `dist/`:
 
 ```shell
 pnpm build
 ```
 
-Add `--watch` to run the builder in a watch mode that continuously cleans and recreates `lib/` as you save files:
+Add `--watch` to run the builder in a watch mode that continuously cleans and recreates `dist/` as you save files:
 
 ```shell
 pnpm build --watch
@@ -38,7 +38,7 @@ pnpm format --write
 This package includes several forms of linting to enforce consistent code quality and styling.
 Each should be shown in VS Code, and can be run manually on the command-line:
 
-- `pnpm lint` ([ESLint](https://eslint.org) with [typescript-eslint](https://typescript-eslint.io)): Lints JavaScript and TypeScript source files
+- `pnpm lint` ([ESLint](https://eslint.org) with [typescript-eslint](https://typescript-eslint.io)): Lints source files, including JavaScript, Markdown, and TypeScript
 
 Read the individual documentation for each linter to understand how it can be configured and used best.
 

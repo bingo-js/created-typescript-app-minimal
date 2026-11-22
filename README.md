@@ -26,7 +26,7 @@ greet("Hello, world! 💖");
 ## Development
 
 See [`.github/CONTRIBUTING.md`](./.github/CONTRIBUTING.md), then [`.github/DEVELOPMENT.md`](./.github/DEVELOPMENT.md).
-Thanks! ✔
+Thanks! ✔️
 
 <!-- You can remove this notice if you don't want it 🙂 no worries! -->
 

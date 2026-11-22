@@ -11,38 +11,37 @@
 		"name": "Josh Goldberg ✨",
 		"email": "npm@joshuakgoldberg.com"
 	},
+	"sideEffects": false,
 	"type": "module",
-	"main": "lib/index.js",
+	"exports": {
+		".": "./dist/index.js"
+	},
+	"main": "./dist/index.js",
 	"files": [
-		"LICENSE.md",
-		"README.md",
-		"lib/",
-		"package.json"
+		"dist/"
 	],
 	"scripts": {
-		"build": "tsup",
+		"build": "tsdown",
 		"format": "prettier .",
 		"lint": "eslint . --max-warnings 0",
 		"prepare": "husky",
 		"tsc": "tsc"
 	},
-	"lint-staged": {
-		"*": "prettier --ignore-unknown --write"
-	},
 	"dependencies": {
 		"@atproto/api": "^0.15.6"
 	},
 	"devDependencies": {
-		"@eslint/js": "9.26.0",
-		"@types/node": "22.15.18",
-		"create-typescript-app": "2.42.0",
-		"eslint": "9.26.0",
+		"@eslint/js": "10.0.1",
+		"@types/node": "26.6.2",
+		"create-typescript-app": "2.87.3",
+		"eslint": "10.15.0",
 		"husky": "9.1.7",
-		"lint-staged": "16.0.0",
-		"prettier": "3.5.3",
-		"tsup": "8.4.0",
-		"typescript": "5.8.3",
-		"typescript-eslint": "8.32.1"
+		"jiti": "2.7.0",
+		"prettier": "3.9.6",
+		"pretty-quick": "4.2.2",
+		"tsdown": "0.23.0",
+		"typescript": "5.9.3",
+		"typescript-eslint": "8.71.0"
 	},
 	"packageManager": "pnpm@10.11.0",
 	"engines": {
