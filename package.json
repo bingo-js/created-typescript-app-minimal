@@ -27,9 +27,6 @@
 		"prepare": "husky",
 		"tsc": "tsc"
 	},
-	"dependencies": {
-		"@atproto/api": "^0.15.6"
-	},
 	"devDependencies": {
 		"@eslint/js": "10.0.1",
 		"@types/node": "26.6.2",

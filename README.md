@@ -14,11 +14,11 @@
 ## Usage
 
 ```shell
-npm i cta-example-minimal
+npm i created-typescript-app-minimal
 ```
 
 ```ts
-import { greet } from "cta-example-minimal";
+import { greet } from "created-typescript-app-minimal";
 
 greet("Hello, world! 💖");
 ```
