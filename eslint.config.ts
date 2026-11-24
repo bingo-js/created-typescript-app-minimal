@@ -1,12 +1,13 @@
 import eslint from "@eslint/js";
+import { defineConfig, globalIgnores } from "eslint/config";
 import tseslint from "typescript-eslint";
 
-export default tseslint.config(
-	{ ignores: ["lib", "node_modules", "pnpm-lock.yaml"] },
+export default defineConfig(
+	globalIgnores(["dist", "node_modules", "pnpm-lock.yaml"], "Global Ignores"),
 	{ linterOptions: { reportUnusedDisableDirectives: "error" } },
-	eslint.configs.recommended,
 	{
 		extends: [
+			eslint.configs.recommended,
 			tseslint.configs.strictTypeChecked,
 			tseslint.configs.stylisticTypeChecked,
 		],
@@ -14,7 +15,6 @@ export default tseslint.config(
 		languageOptions: {
 			parserOptions: {
 				projectService: { allowDefaultProject: ["*.config.*s"] },
-				tsconfigRootDir: import.meta.dirname,
 			},
 		},
 	},
