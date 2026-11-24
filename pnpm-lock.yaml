@@ -27,11 +27,11 @@ importers:
         specifier: 2.7.0
         version: 2.7.0
       prettier:
-        specifier: 3.9.6
-        version: 3.9.6
+        specifier: 3.10.1
+        version: 3.10.1
       pretty-quick:
         specifier: 4.2.2
-        version: 4.2.2(prettier@3.9.6)
+        version: 4.2.2(prettier@3.10.1)
       tsdown:
         specifier: 0.23.0
         version: 0.23.0(typescript@5.9.3)
@@ -1707,8 +1707,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier@3.9.6:
-    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
+  prettier@3.10.1:
+    resolution: {integrity: sha512-70vp3ZUYoPlFbF9uiTdXHUUCGEIp7d4+6p+8DYbkm2jP7x/3i/paXVF6dopSI3zd/CEitrZN1rc4i85xWmmXlg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2629,10 +2629,10 @@ snapshots:
 
   '@pkgr/core@0.2.10': {}
 
-  '@prettier/sync@0.6.1(prettier@3.9.6)':
+  '@prettier/sync@0.6.1(prettier@3.10.1)':
     dependencies:
       make-synchronized: 0.8.0
-      prettier: 3.9.6
+      prettier: 3.10.1
 
   '@quansync/fs@1.1.0':
     dependencies:
@@ -3020,7 +3020,7 @@ snapshots:
 
   create-typescript-app@2.87.20(bingo-systems@0.9.1)(typescript@5.9.3):
     dependencies:
-      '@prettier/sync': 0.6.1(prettier@3.9.6)
+      '@prettier/sync': 0.6.1(prettier@3.10.1)
       '@typescript-eslint/typescript-estree': 8.73.0(typescript@5.9.3)
       all-contributors-types: 0.1.0
       bingo: 0.16.2(zod@4.6.7)
@@ -3045,7 +3045,7 @@ snapshots:
       object-strings-deep: 0.1.2
       parse-author: 2.0.0
       parse-package-name: 1.0.0
-      prettier: 3.9.6
+      prettier: 3.10.1
       remove-dependencies: 0.1.1
       remove-undefined-objects: 9.0.2
       semver: 7.8.6
@@ -3814,20 +3814,20 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.9.6: {}
+  prettier@3.10.1: {}
 
   pretty-ms@9.3.1:
     dependencies:
       parse-ms: 4.0.0
 
-  pretty-quick@4.2.2(prettier@3.9.6):
+  pretty-quick@4.2.2(prettier@3.10.1):
     dependencies:
       '@pkgr/core': 0.2.10
       ignore: 7.0.16
       mri: 1.2.0
       picocolors: 1.1.1
       picomatch: 4.0.7
-      prettier: 3.9.6
+      prettier: 3.10.1
       tinyexec: 0.3.2
       tslib: 2.9.1
 
