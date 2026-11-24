@@ -1,6 +1,22 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended"
-  ]
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"automerge": true,
+	"extends": [
+		":preserveSemverRanges",
+		"config:best-practices",
+		"replacements:all"
+	],
+	"ignoreDeps": ["codecov/codecov-action"],
+	"labels": ["dependencies"],
+	"minimumReleaseAge": "7 days",
+	"packageRules": [
+		{
+			"description": "The Engines Check job's Node.js version is the minimum from engines.node.",
+			"enabled": false,
+			"matchDepNames": ["node"],
+			"matchFileNames": [".github/workflows/ci.yaml"]
+		}
+	],
+	"patch": { "enabled": false },
+	"postUpdateOptions": ["pnpmDedupe"]
 }
